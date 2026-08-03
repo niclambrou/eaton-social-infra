@@ -1,0 +1,37 @@
+filename,reason_not_deposited
+01_church_analysis.ipynb,out of scope (churches not in final paper)
+06_foster_family_agencies.ipynb,out of scope (foster/adoption not in final paper)
+Untitled.ipynb,scratch notebook; leaks local paths + another study's named data
+adult_res_eaton_census_input.csv,geocoder input (address list)
+adult_res_eaton_geocoded.csv,geocoder output (address + coordinates)
+adult_residential_destroyed_facilities.csv,facility microdata (generalized instead)
+adult_residential_destroyed_facilities.geojson,facility microdata (generalized instead)
+adult_residential_impacted_facilities.csv,facility microdata (generalized instead)
+adult_residential_impacted_facilities.geojson,facility microdata (generalized instead)
+childcare_eaton_census_input.csv,geocoder input (address list)
+childcare_eaton_geocoded.csv,geocoder output (address + coordinates)
+childcare_impacted_facilities.csv,facility microdata (generalized instead)
+childcare_impacted_facilities.geojson,facility microdata (generalized instead)
+churches_map.gpkg,out of scope (churches)
+eaton.aprx,ArcGIS project may embed local paths; not needed for reproducibility
+eaton.atbx,ArcGIS toolbox; not needed for reproducibility
+eaton_social_infra.cpg,combined shapefile with care names/coords
+eaton_social_infra.dbf,combined shapefile with care names/coords
+eaton_social_infra.gpkg,combined layer with care names/coords (regenerated generalized)
+eaton_social_infra.prj,combined shapefile with care names/coords
+eaton_social_infra.shp,combined shapefile with care names/coords
+eaton_social_infra.shx,combined shapefile with care names/coords
+eaton_social_infra_v2.gpkg,superseded combined layer with care names/coords
+eaton_social_infra_v4.gpkg,superseded combined layer with care names/coords
+eaton_social_infra_v5.gpkg,combined layer with care names/coords (regenerated generalized)
+eldercare_clean.csv,"raw statewide CDSS pull (administrator names, phones, complaints)"
+eldercare_eaton_addresses.csv,address list
+eldercare_eaton_census_geocode_input.csv,geocoder input (address list)
+eldercare_eaton_geocoded.csv,geocoder output (address + coordinates)
+eldercare_impacted_facilities.csv,facility microdata (generalized instead)
+eldercare_impacted_facilities.geojson,facility microdata (generalized instead)
+eldercare_impacted_facilities_mappable.csv,facility microdata (generalized instead)
+eldercare_inside_eaton_perimeter.csv,full-detail licensing (admin/phone/complaints)
+healthcare_impacted_facilities.csv,facility microdata (generalized instead)
+healthcare_impacted_facilities.geojson,facility microdata (generalized instead)
+schools_map.gpkg,regenerated as schools points csv

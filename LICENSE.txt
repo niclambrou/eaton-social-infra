@@ -1,0 +1,2 @@
+Data (open tier): CC-BY 4.0, with attribution to original public sources.
+Code: MIT License.

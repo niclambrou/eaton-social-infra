@@ -1,0 +1,32 @@
+path,tier,description
+open/aggregates/eaton_broad_category_counts.csv,open,aggregate counts (no PII)
+open/aggregates/eaton_percent_impacted_by_category.csv,open,aggregate counts (no PII)
+open/aggregates/eaton_structure_type_counts.csv,open,aggregate counts (no PII)
+open/aggregates/school_impact_summary.csv,open,aggregate counts (no PII)
+open/schools/calfire_assessed_school_structures.csv,open,school-level (public institutions)
+open/schools/calfire_school_major_destroyed.csv,open,school-level (public institutions)
+open/schools/calfire_school_major_parcels.csv,open,school-level (public institutions)
+open/schools/calfire_school_parcels.csv,open,school-level (public institutions)
+open/schools/schools_inside_eaton_perimeter.csv,open,school-level (public institutions)
+open/spatial/eaton_perimeter.shp,open,CAL FIRE fire perimeter (public snapshot)
+open/spatial/eaton_perimeter.dbf,open,CAL FIRE fire perimeter (public snapshot)
+open/spatial/eaton_perimeter.shx,open,CAL FIRE fire perimeter (public snapshot)
+open/spatial/eaton_perimeter.prj,open,CAL FIRE fire perimeter (public snapshot)
+open/spatial/eaton_perimeter.cpg,open,CAL FIRE fire perimeter (public snapshot)
+open/spatial/eaton_perimeter.gpkg,open,CAL FIRE fire perimeter (public snapshot)
+open/dins/eaton_fire_only.csv,open,"DINS derivative (public, CC-BY); assessed value dropped"
+open/dins/eaton_impacted_structures.csv,open,"DINS derivative (public, CC-BY); assessed value dropped"
+open/dins/eaton_inaccessible_structures.csv,open,"DINS derivative (public, CC-BY); assessed value dropped"
+open/dins/eaton_major_impacts.csv,open,"DINS derivative (public, CC-BY); assessed value dropped"
+open/code/02_school_analysis.ipynb,open,analysis notebook (outputs cleared)
+open/code/03_elder_care_analysis.ipynb,open,analysis notebook (outputs cleared)
+open/code/04_adult_residential_facilities.ipynb,open,analysis notebook (outputs cleared)
+open/code/05_child_care_centers.ipynb,open,analysis notebook (outputs cleared)
+open/code/07_healthcare_analysis.ipynb,open,analysis notebook (outputs cleared)
+open/code/08_mapping_outputs.ipynb,open,analysis notebook (outputs cleared)
+open/code/fire_analysis.ipynb,open,analysis notebook (outputs cleared)
+open/aggregates/care_facility_impacts_summary.csv,open,"care impacts by category (aggregate, no PII)"
+open/crosswalks/schools_damage_crosswalk.csv,open,school-level damage crosswalk (public institutions)
+restricted/care_facilities_deidentified_crosswalk.csv,restricted,care facilities: no name/license#/address/coords; tract + capacity band
+restricted/care_points_generalized.csv,restricted,care points rounded to 2 dp (~1 km); names removed
+open/code/requirements.txt,open,python environment
