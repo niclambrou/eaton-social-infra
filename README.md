@@ -1,5 +1,7 @@
 # Invisible Losses — Eaton Fire social-infrastructure data & code
-https://doi.org/10.5281/zenodo.21781686
+
+Cite this dataset: https://doi.org/10.5281/zenodo.21781686
+
 Replication materials for the study of social-infrastructure loss in the January 2025
 Eaton Fire (Altadena, California), using an institution-specific matching of licensed
 facilities to CAL FIRE damage-inspection (DINS) records. 
