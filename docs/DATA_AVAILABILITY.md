@@ -2,7 +2,7 @@
 
 Aggregate data, school- and structure-level records derived from public sources
 (CAL FIRE DINS, CA Dept. of Education), the fire perimeter, and all analysis code are
-openly available at [REPOSITORY DOI].
+openly available at https://doi.org/10.5281/zenodo.21781686.
 
 De-identified, generalized facility-level data for licensed care facilities (elder-care,
 adult residential, and childcare) are available from the author on reasonable request
