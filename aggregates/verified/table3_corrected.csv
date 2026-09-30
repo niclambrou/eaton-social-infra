@@ -1,0 +1,6 @@
+infrastructure_type,operating_facilities_region,matched_to_DINS_parcel,destroyed_operating,destroyed_capacity,notes
+Schools (parcels),20 parcels / 123 structures,11 parcels impacted,47 structures Major+Destroyed,"1,898 students at 9 of 10 campuses (2,105 all-campus)",parcel/APN-based; unchanged by correction
+Elder-care (RCFE),58,11,5,140 beds,incl. one 112-bed assisted-living facility
+Adult residential / group homes,96,22,13,102 beds,
+Childcare centers,115,10,7,371 slots,174 slots on school campuses (overlap)
+Licensed health facilities,109,4,2,56 beds,DINS types: commercial bldg; SFR

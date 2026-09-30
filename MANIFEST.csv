@@ -30,3 +30,17 @@ open/crosswalks/schools_damage_crosswalk.csv,open,school-level damage crosswalk 
 restricted/care_facilities_deidentified_crosswalk.csv,restricted,care facilities: no name/license#/address/coords; tract + capacity band
 restricted/care_points_generalized.csv,restricted,care points rounded to 2 dp (~1 km); names removed
 open/code/requirements.txt,open,python environment
+open/code/verified_matching.py,open,parcel-identity matching module (authoritative; supersedes notebook damage attribution)
+open/code/adjudications.csv,open,documented manual adjudications with evidence (facility license numbers are public CCLD identifiers)
+open/aggregates/verified/care_facility_impacts_summary.csv,open,corrected aggregate counts (no PII)
+open/aggregates/verified/table3_corrected.csv,open,corrected Table 3 aggregates (no PII)
+restricted/facility_damage_verified.csv,local-only,"identified verified crosswalk (names/addresses/coords); gitignored, DUA only"
+open/docs/ERRATA.md,open,correction record and method lesson
+open/code/09_figure2_verified.py,open,figure layer regeneration from verified classifications
+open/code/make_restricted_tier.py,open,builds de-identified restricted-tier files
+restricted/adjudications.csv,local-only,"identified adjudication decisions with parcel evidence; gitignored, DUA only"
+restricted/adjudication_queue.csv,local-only,"identified non-match queue; gitignored, DUA only"
+restricted/eaton_social_infra_verified.gpkg,local-only,"identified point layer, exact coordinates; gitignored, DUA only"
+restricted/deidentified/verified_care_deidentified_crosswalk.csv,restricted,"de-identified verified crosswalk (on request, DUA)"
+restricted/deidentified/verified_adjudication_log_deidentified.csv,restricted,"de-identified adjudication evidence log (on request, DUA)"
+restricted/deidentified/verified_care_points_generalized.csv,restricted,"generalized points ~1.1 km (on request, DUA)"

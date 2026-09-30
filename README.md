@@ -28,5 +28,18 @@ facilities to CAL FIRE damage-inspection (DINS) records.
 Semi-structured interview data are NOT included. They are human-subjects data held under
 restricted, IRB-controlled access; contact the author. See DATA_AVAILABILITY.md.
 
+## Correction (September 2026)
+Facility damage classifications in the original notebooks were assigned partly
+by spatial proximity (50 m buffer joins on geocoded points). A parcel-level
+audit found this unreliable in an ember-driven fire — see docs/ERRATA.md for
+overturned and newly identified classifications. code/verified_matching.py is
+now the authoritative matching method; the exploratory notebooks are retained
+for transparency but their damage attributions are superseded.
+
 ## Reproducing
-See open/code/ (run notebooks in numeric order) and open/code/requirements.txt.
+Run code/verified_matching.py against the CAL FIRE POSTFIRE master data share
+(public; filter Incident Name == "Eaton") and the CDSS/CDPH licensing
+downloads named in docs/DATA_DICTIONARY.md; manual determinations are in
+code/adjudications.csv with evidence. The exploratory notebooks
+(open/code/, numeric order) document the original workflow. See
+open/code/requirements.txt.
