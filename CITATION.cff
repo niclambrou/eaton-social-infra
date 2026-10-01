@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite it as below."
+title: "Eaton Fire Social Infrastructure: data and code for 'Invisible Losses'"
+authors:
+  - family-names: Lambrou
+    given-names: Nicole
+    affiliation: "California State Polytechnic University, Pomona"
+doi: 10.5281/zenodo.21781686
+repository-code: "https://github.com/niclambrou/eaton-social-infra"
+date-released: "2026-10-01"
+version: 1.1.0
+keywords:
+  - wildfire
+  - Eaton Fire
+  - social infrastructure
+  - disaster damage assessment
+  - CAL FIRE DINS
